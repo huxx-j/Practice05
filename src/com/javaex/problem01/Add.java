@@ -33,7 +33,8 @@ public class Add {
         this.b = b;
     }
 
-    public int calculate() {
+    public int calculate(int a, int b) {
+
         return a + b;
     }
 }
