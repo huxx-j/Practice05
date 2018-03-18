@@ -6,13 +6,13 @@ public abstract class Shape {
     public Shape() {
     }
 
-    public Shape(int countSides) {
-        this.countSides = countSides;
-    }
-
-    public int getCountSides() {
-        return countSides;
-    }
+//    public Shape(int countSides) {
+//        this.countSides = countSides;
+//    }
+//
+//    public int getCountSides() {
+//        return countSides;
+//    }
 
     public abstract double getArea();
 

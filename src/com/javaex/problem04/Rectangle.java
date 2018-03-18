@@ -4,9 +4,9 @@ public class Rectangle extends Shape implements Resizeable {
 
     private double width;
     private double height;
-
-    public Rectangle() {
-    }
+//
+//    public Rectangle() {
+//    }
 
     public Rectangle(double width, double height) {
         this.width = width;
@@ -25,7 +25,7 @@ public class Rectangle extends Shape implements Resizeable {
 
     @Override
     public void resize(double s) {
-        this.height *= 0.5;
-        this.width *= 0.5;
+        this.height *= s;
+        this.width *= s;
     }
 }
